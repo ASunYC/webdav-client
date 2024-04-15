@@ -27,6 +27,16 @@ Support table:
 Only v5 is supported. Anoter version you can  obtained from the original author's repository ：[webdav-client](https://github.com/perry-mitchell/webdav-client)
 
 ## Quick Start
+
+### Installation
+
+Simple install as a dependency using npm:
+
+```
+npm install @asun01/webdav --save
+```
+
+### To use
 In this version you need to:
 
 ```typescript
@@ -35,15 +45,7 @@ const { createClient } = require("@asun01/webdav");
 // both work fine in supported bundlers
 ```
 
-## Installation
-
-Simple install as a dependency using npm:
-
-```
-npm install webdav --save
-```
-
-## Usage
+## Some Usage
 
 Usage entails creating a client adapter instance by calling the factory function `createClient`:
 
