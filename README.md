@@ -8,9 +8,9 @@
 
 This library comes from the [webdav-client](https://github.com/perry-mitchell/webdav-client) created by the industry heavyweight, **Perry Mitchell**. I have made some modifications to it to ensure its compatibility with **CommonJS**.
 
-Version 5.5.0 corresponds to the original author's Version 5.5.0.
+**Version 5.5.0** corresponds to the original author's Version 5.5.0.
 
-WebDAV is a well-known, stable and highly flexible protocol for interacting with remote filesystems via an API. Being that it is so widespread, many file hosting services such as **Nextcloud**/**ownCloud**, **Box** and **Yandex** use it as a fallback to their primary interfaces.
+**The original WebDAV** is a well-known, stable and highly flexible protocol for interacting with remote filesystems via an API. Being that it is so widespread, many file hosting services such as **Nextcloud**/**ownCloud**, **Box** and **Yandex** use it as a fallback to their primary interfaces.
 
 This library provides a **WebDAV client** interface that makes interacting with WebDAV enabled services easy. The API returns promises and resolve with the results. It parses and prepares directory-contents requests for easy consumption, as well as providing methods for fetching things like file stats and quotas.
 
@@ -673,12 +673,3 @@ Requests that return results, such as `getDirectoryContents`, `getFileContents`,
 CORS is a security enforcement technique employed by browsers to ensure requests are executed to and from expected contexts. It can conflict with this library if the target server doesn't return CORS headers when making requests from a browser. It is your responsibility to handle this.
 
 It is a known issue that Nextcloud servers by default don't return friendly CORS headers, making working with this library within a browser context impossible. You can of course force the addition of CORS headers (Apache or Nginx configs) yourself, but do this at your own risk.
-
-## Projects using this WebDAV client
-
- * [Buttercup Password Manager](https://github.com/buttercup)
- * [Nextcloud Server](https://github.com/nextcloud/server)
- * [Nextcloud Photos](https://github.com/nextcloud/photos)
- * [ownCloud SDK](https://github.com/owncloud/owncloud-sdk)
- * [React OxIDE](https://github.com/bootrino/reactoxide)
- * [BackItUp](https://github.com/simatec/ioBroker.backitup)
