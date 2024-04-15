@@ -1,6 +1,6 @@
 {
   "name": "@asun01/webdav",
-  "version": "5.5.0",
+  "version": "5.5.3",
   "description": "WebDAV client for NodeJS",
   "exports": {
     ".": {
@@ -13,7 +13,6 @@
     "./dist/*": "./dist/*"
   },
   "react-native": "./dist/react-native/index.js",
-  "type": "module",
   "types": "./dist/node/index.d.ts",
   "scripts": {
     "build": "npm run clean && run-p build:node build:web",
@@ -73,13 +72,14 @@
     "byte-length": "^1.0.2",
     "fast-xml-parser": "^4.2.4",
     "he": "^1.2.0",
-    "layerr": "^2.0.1",
+    "layerr": "^0.1.2",
     "md5": "^2.3.0",
     "minimatch": "^7.4.6",
     "nested-property": "^4.0.0",
+    "node-fetch": "^2.7.0",
     "path-posix": "^1.0.0",
-    "url-join": "^5.0.0",
-    "url-parse": "^1.5.10"
+    "url-join": "^4.0.1",
+    "url-parse": "^1.5.3"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",
@@ -113,7 +113,6 @@
     "mkdirp": "^1.0.4",
     "mocha": "^10.3.0",
     "nock": "^13.5.4",
-    "node-fetch": "^3.3.0",
     "nodemon": "^3.1.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.2.5",
@@ -123,7 +122,7 @@
     "sinon": "^17.0.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.2",
-    "wait-on": "^6.0.1",
+    "wait-on": "^7.2.0",
     "webdav-server": "^2.6.2",
     "webpack": "^5.90.3",
     "webpack-cli": "^5.1.4",
