@@ -55,7 +55,7 @@ function getBasicConfig() {
                 "http": path.resolve(__dirname, "./util/http.stub.ts"),
                 "node-fetch": path.resolve(__dirname, "./util/node-fetch.stub.ts")
             },
-            extensions: [".js"],
+            extensions: [".js",".ts"],
             fallback: {
                 buffer: false,
                 crypto: false,

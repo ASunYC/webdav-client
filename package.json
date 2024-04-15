@@ -1,5 +1,5 @@
 {
-  "name": "webdav",
+  "name": "@asun01/webdav",
   "version": "5.5.0",
   "description": "WebDAV client for NodeJS",
   "exports": {
@@ -39,6 +39,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ASunYC/webdav-client.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "webdav",
