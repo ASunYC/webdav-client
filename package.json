@@ -61,7 +61,7 @@
       "pre-commit": "lint-staged"
     }
   },
-  "author": "Perry Mitchell <https://home.freeman.fit>",
+  "author": "asun01 <https://github.com/ASunYC>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ASunYC/webdav-client/issues"
