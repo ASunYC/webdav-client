@@ -8,7 +8,7 @@
 
 This library comes from the [webdav-client](https://github.com/perry-mitchell/webdav-client) created by the industry heavyweight, **Perry Mitchell**. I have made some modifications to it to ensure its compatibility with **CommonJS**.
 
-**Version 5.5.0** corresponds to the original author's Version 5.5.0.
+**Version 5.5.x** corresponds to the original author's Version 5.5.0.
 
 **The original WebDAV** is a well-known, stable and highly flexible protocol for interacting with remote filesystems via an API. Being that it is so widespread, many file hosting services such as **Nextcloud**/**ownCloud**, **Box** and **Yandex** use it as a fallback to their primary interfaces.
 
