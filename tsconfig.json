@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "./dist/node",
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "declaration": true,
+        "target": "es2020",
+        "esModuleInterop": true
+    },
+    "include": [
+        "./source/**/*"
+    ],
+    "exclude":[
+        "./node_modules"
+    ]
+}
